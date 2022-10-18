@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Typography */
+h1, h2, h3 {
+    color: #2B345E;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0;
+    color: #161926;
+}
+
+a {
+    color: #4E93FA;
+}
+
+a:hover {
+    color: #3479df;
+}
+
+/* Components */
+/* Navbar */
+.navbar {
+    padding: 24px 0;
+}
+
+.navbar .collapse-padding {
+    padding-top: 24px;
+}
+
+/* Button */
+.btn {
+    border-radius: 10px;
+    padding: 10px 24px;
+}
+
+.btn-primary {
+    background-color: #4E93FA;
+    border-color: #4E93FA;
+}
+
+.btn-primary:hover {
+    background-color: #3479df;
+    border-color: #3479df;
+}
+
+.btn-outline-primary {
+    color: #4E93FA;
+    border-color: #4E93FA;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4E93FA;
+    border-color: #4E93FA;
+}
+
+/* Card */
+.card {
+    border-radius: 10px;
+}
+
+.card-img, .card-img-top {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 16px 18px;
+}
+
+/* Custom */
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-title {
+    margin-bottom: 32px;
+}
+
+/* Section Hero */
+#hero .illustration {
+    width: 100%;
+}
+
+/* Section Intro */
+.box-intro {
+    height: 100%;
+    border: 1px solid #E9E9E9;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.box-intro img{
+    margin-bottom: 12px;
+}
+
+/* Footer */
+footer {
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Media Query */
+@media screen and (max-width:991px) {
+    h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .navbar .collapse-padding .btn {
+        width: 100%;
+    }
+    
+    #hero .illustration {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .section-padding {
+        padding: 40px 0;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+}
