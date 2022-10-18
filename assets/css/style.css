@@ -47,10 +47,6 @@ a:hover {
     padding: 24px 0;
 }
 
-.navbar .collapse-padding {
-    padding-top: 24px;
-}
-
 /* Button */
 .btn {
     border-radius: 10px;
@@ -139,6 +135,10 @@ footer {
 }
 
 @media screen and (max-width:767px) {
+    .navbar .collapse-padding {
+        padding-top: 24px;
+    }
+    
     .navbar .collapse-padding .btn {
         width: 100%;
     }
