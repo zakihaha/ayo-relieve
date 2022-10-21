@@ -151,7 +151,9 @@ body{
     margin-top: 35px;
 }
 
-.form .button input{
+.form .button button{
+    width: 100%;
+    padding: 15px;
     border: none;
     color: #fff;
     font-size: 17px;
@@ -163,7 +165,7 @@ body{
     transition: all 0.3s ease;
 }
 
-.button input:hover{
+.button button:hover{
     background-color: #265df2;
 }
 
