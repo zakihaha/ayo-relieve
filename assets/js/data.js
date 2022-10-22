@@ -1,15 +1,3 @@
-const getUser = () => {
-    const user = localStorage.getItem('user')
-    if (user) {
-        const userData = JSON.parse(user)
-        const element = document.createElement('p')
-        element.innerHTML = userData.name
-        element.classList.add('btn')
-        element.classList.add('btn-primary')
-        document.getElementById('user').appendChild(element)
-    }
-}
-
 const getCampaigns = async () => {
     try {
         const response = await fetch('https://634d0019acb391d34a90fbc0.mockapi.io/campaigns');
@@ -36,5 +24,4 @@ const getCampaigns = async () => {
     }
 }
 
-getUser()
 getCampaigns()

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYO RELIEVE</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/auth.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <div class="imgAYO"><img src="assets/img/AYO_RELIEVE.png" alt="image"></div>
+                <div class="imgLogin"><img src="assets/img/Login.png" alt="image"></div>
+                <span class="title">Masuk</span>
+
+                <form action="#" id="form_Login">
+                    <div class="input-field">
+                        <input type="text" placeholder="Masukkan alamat email" required id="login_email">
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Masukkan password" required
+                            id="login_password">
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Ingatkan saya</label>
+                        </div>
+
+                        <a href="#" class="text">Lupa Password?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <button id="btn-login" type="submit">Masuk</button>
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Tidak punya akun?
+                        <a href="#" class="text signup-link">Daftar</a>
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="form signup">
+                <div class="imgAYO"><img src="assets/img/AYO_RELIEVE.png" alt="image"></div>
+                <div class="imgLogin"><img src="assets/img/Login.png" alt="image"></div>
+                <span class="title">Daftar</span>
+
+                <form action="#" id="form_signUp">
+                    <div class="input-field">
+                        <input type="text" placeholder="Masukkan nama lengkap" required id="signup-name">
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Masukkan alamat email" required id="signup-email">
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" class="telepon" placeholder="Masukkan nomor telepon" required
+                            id="signup-phone">
+                        <i class="uil uil-phone"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Masukkan password" required
+                            id="signup-password">
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">I accepted all terms and conditions</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field button">
+                        <button id="btn-signup" type="submit">Daftarkan</button>
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Sudah punya akun?
+                        <a href="#" class="text login-link">Masuk</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/auth.js"></script>
+</body>
+
+</html>
