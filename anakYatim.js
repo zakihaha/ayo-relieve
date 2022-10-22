@@ -20,10 +20,12 @@ const getDetail = async () => {
             <h3>Kuota penerima</h3>
             <p>${data.quota} Orang</p>
 
-            <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="daftar" >Daftar</button>
-    </div>
+            
     `
+}
+
+const daftar =() => {
+    alert("Selamat kamu berhasil mendaftar program") 
 }
 
 getDetail()
