@@ -5,7 +5,9 @@ body {
 }
 
 /* Typography */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: #2B345E;
 }
 
@@ -78,7 +80,8 @@ a:hover {
     border-radius: 10px;
 }
 
-.card-img, .card-img-top {
+.card-img,
+.card-img-top {
     border-radius: 10px;
 }
 
@@ -108,7 +111,7 @@ a:hover {
     padding: 24px;
 }
 
-.box-intro img{
+.box-intro img {
     margin-bottom: 12px;
 }
 
@@ -116,6 +119,14 @@ a:hover {
 footer {
     padding: 60px 0;
     text-align: center;
+}
+
+/* Custom */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* Media Query */
@@ -138,11 +149,11 @@ footer {
     .navbar .collapse-padding {
         padding-top: 24px;
     }
-    
+
     .navbar .collapse-padding .btn {
         width: 100%;
     }
-    
+
     #hero .illustration {
         margin-top: 40px;
     }
